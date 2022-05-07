@@ -1,4 +1,4 @@
 import ReactDOM from 'react-dom';
-import Topo from "./Topo";
+import App from "./App";
 
-ReactDOM.render(<Topo />, document.querySelector(".root"));
+ReactDOM.render(<App />, document.querySelector(".root"));

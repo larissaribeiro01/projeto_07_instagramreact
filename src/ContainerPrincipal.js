@@ -1,5 +1,6 @@
 import Feed from "./Feed";
 import Stories from "./Stories";
+import SideBar from "./SideBar";
 
 
 export default function ContainerPrincipal () {
@@ -8,6 +9,9 @@ export default function ContainerPrincipal () {
             <div class="container-principal">
                 <Stories />
                 <Feed />
+            </div>
+            <div class="container-secundario">
+                <SideBar />
             </div>
         </div>
     )

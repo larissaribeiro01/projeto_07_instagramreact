@@ -3,6 +3,7 @@ import Stories from "./Stories";
 import SideBar from "./SideBar";
 
 
+
 export default function ContainerPrincipal () {
     return (
         <div class="container">
